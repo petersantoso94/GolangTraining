@@ -1,2 +1,8 @@
 image:
   file: .gitpod.Dockerfile
+checkoutLocation: "go/src/github.com/petersantoso94/GolangTraining"
+workspaceLocation: "."
+tasks:
+  - command: |
+      cd /workspace/go/src/github.com/petersantoso94/GolangTraining
+      go get -v ./...
